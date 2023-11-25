@@ -294,7 +294,7 @@ nav .right-nav ul li a:active {
 }
 
 #card-main {
-    width: 945px;
+    width: 950px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,8 +316,8 @@ nav .right-nav ul li a:active {
 
 .card {
 
-    width: 289px;
-    height: 283px;
+    width: 310px;
+    height: 298px;
     top: 8px;
     left: 8px;
     border-radius: 16px;
@@ -331,9 +331,14 @@ nav .right-nav ul li a:active {
 
 .img-class {
 
-
+  display: inline-block;
     border-radius: 16px;
-
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+    margin-left:10px;
+    
+    margin-top: 8px;
 }
 
 #search-img {
@@ -349,10 +354,200 @@ nav .right-nav ul li a:active {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap:70px;
+    gap:80px;
 }
 
 .div-right>img{
     width:22px;
     height:22px;
 }
+
+#left-div{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+}
+
+#left-div>p{
+    opacity:0.7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: -6px;
+
+}
+
+#left-div>h4{
+    color: #DC582A;
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+      margin-top: 5px;
+}
+#left-div>h3{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #252525;
+margin-top:-8px;
+
+}
+
+#div-right{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
+    gap:18px;
+}
+
+#div-right>.br>img{
+   
+    margin-left: 10px;
+}
+ 
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1200px;
+    gap:100px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#first-col{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+
+#first-col>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color:#00000099;
+
+    
+}
+
+
+#sec-col{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+
+#sec-col>ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px; 
+}
+#sec-col>ul>li{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+    list-style: none;
+
+}
+
+#sec-col>ul>li>a{
+    text-decoration: none;
+    color: #00000099;
+}
+
+
+
+#third-col{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px; 
+}
+#third-col>ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:15px; 
+}
+
+#third-col>ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+    list-style: none;
+}
+
+#third-col>ul>li>a{
+    text-decoration: none;
+    color:#00000099;
+}
+
+
+#fourth-col{
+     
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px; 
+}
+
+#fourth-col>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#00000099;
+
+
+}
+
+#fourth-col>div>input{
+    width: 200px;
+    height:30px;
+    border-radius: 4px;
+    border: 1px solid #253D4E;
+     
+}
+
+#fourth-col>div>button{
+    width: 77px;
+    height: 30px;
+    background-color: #509E2F;
+    color:#FFFFFF;
+    border:none;
+
+}
+

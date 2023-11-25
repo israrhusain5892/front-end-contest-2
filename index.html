@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="showAllrecipes()">
      
     <nav>
         <div class="logo">
@@ -16,7 +16,7 @@
         </div>
         <div class="right-nav">
             <ul>
-                <li><a href="https://cdn.pixabay.com/photo/2023/09/02/18/09/plant-8229375_1280.jpg" target="_blank">Home</a></li>
+                <li><a  onclick="showAllrecipes()">Home</a></li>
                 <li><a href="#">Explore</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
@@ -60,13 +60,13 @@
 
     <section id="sec-3">
         <div id="btn-container">
-            <button class="btn">
+            <button type="submit" onclick="showAllrecipes()" class="btn">
                 <p>All Recipes</p> <img style="margin:1px;" src="./Images/chevron.png">
             </button>
-            <button style="background-color: #C4D600;" class="btn">
+            <button onclick="showOnyVegRecipes()" style="background-color: #C4D600;" class="btn">
                 <p>Veg Recipes Only</p> <img style="margin:1px;" src="./Images/chevron.png">
             </button>
-            <button style="background: #DC582A;
+            <button onclick="showOnyNonVegRecipes()" style="background: #DC582A;
                 " class="btn">
                 <p>Non Veg Recipes Only</p> <img style="margin:1px;" src="./Images/chevron.png">
             </button>
@@ -81,12 +81,12 @@
                 <br>
                 <p>Rating</p><br>
                 <div>
-                    <input type="checkbox">
+                    <input oninput="Rating4andAbove()" type="checkbox">
                     <label>4 and Above</label>
                 </div>
                 <br>
                 <div>
-                    <input type="checkbox">
+                    <input oninput="RatingBelow4()" type="checkbox">
                     <label>Below 4</label>
                 </div>
 
@@ -117,6 +117,54 @@
     </script> -->
 
 <script src="index.js"></script>
+
+<footer>
+       <div id="first-col">
+              <img src="./Images/Cookpal 1.png">
+              <p>Cookpal is a recipe website with a<br> 
+                wide variety of delicious recipes,<br> easy-to-use search function. Join<br>
+                 our community and let's cook<br> together!</p>
+       </div>
+
+       <div id="sec-col">
+             <h2>Company</h2>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Activity</a></li>
+              </ul>
+       </div>
+
+
+       <div id="third-col">
+        <h2>Resources</h2>
+         <ul>
+           <li><a href="#">blog</a></li>
+           <li><a href="#">Usecases</a></li>
+           <li><a href="#">Testimonials</a></li>
+           <li><a href="#">Insights</a></li>
+           
+         </ul>
+       </div>
+
+
+       <div id="fourth-col">
+        <img src="./Images/Cookpal 1.png">
+        
+        <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus<br> accumsan aliquam.</p>
+         <div>
+            <input type="email" placeholder="Your Email                      @">
+            <button>Subscribe</button>
+        </div>
+        
+    </div>
+</footer>
+<br>
+<br>
+<br>
+<br>
 </body>
 
 </html>
