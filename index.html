@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+     
+    <nav>
+        <div class="logo">
+            <img src="./Images/Cookpal 1.png">
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li><a href="https://cdn.pixabay.com/photo/2023/09/02/18/09/plant-8229375_1280.jpg" target="_blank">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <div>
+                <img src="./Images/Ellipse 2.png">
+            </div>
+        </div>
+    </nav>
+
+    <section id="first-section">
+        <div class="container">
+            <div>
+                <h3>Trending now</h3>
+                <h2>Mike’s famous salad<br>
+                    with cheese</h2>
+                <p>By John Mike</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="sec-2">
+
+        <div id="search-container">
+            <p>Search for recipes</p><br>
+            <div>
+                <div>
+                    <img src="./Images/search 1.png">
+                    <input type="text" id="search-bar" placeholder="Search for recipes">
+                </div>
+                <div>
+                    <button type="submit" onclick="searchByName()" id="search-button"><img src="./Images/li_search.png"></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="sec-3">
+        <div id="btn-container">
+            <button class="btn">
+                <p>All Recipes</p> <img style="margin:1px;" src="./Images/chevron.png">
+            </button>
+            <button style="background-color: #C4D600;" class="btn">
+                <p>Veg Recipes Only</p> <img style="margin:1px;" src="./Images/chevron.png">
+            </button>
+            <button style="background: #DC582A;
+                " class="btn">
+                <p>Non Veg Recipes Only</p> <img style="margin:1px;" src="./Images/chevron.png">
+            </button>
+        </div>
+    </section>
+
+
+    <section id="sec-4">
+        <div id="sec-4-container">
+            <div class="side-bar-filter">
+                <h3>Filters</h3>
+                <br>
+                <p>Rating</p><br>
+                <div>
+                    <input type="checkbox">
+                    <label>4 and Above</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox">
+                    <label>Below 4</label>
+                </div>
+
+            </div>
+            <div id="card-main">
+                <!-- <div class="card">
+
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <div id="img">
+
+
+
+    </div>
+
+    <!-- <script>
+     const element=document.getElementById('img');
+
+    let img = document.createElement('img');
+    img.src = "https://cdn.pixabay.com/photo/2023/09/02/18/09/plant-8229375_1280.jpg";
+
+    element.appendChild(img);
+
+
+    </script> -->
+
+<script src="index.js"></script>
+</body>
+
+</html>
